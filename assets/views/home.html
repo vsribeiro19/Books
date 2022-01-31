@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/home.css">
+    <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>Books - Home</title>
+</head>
+
+<body>
+    <nav class="nav">
+        <a href="#">Books</a>
+        <ul class="nav__list">
+            <li class="nav__list_items">Categoria</li>
+            <li class="nav__list_items">Aleatório</li>
+            <li class="nav__list_items">Nacionais</li>
+        </ul>
+        <form action="#" method="GET">
+            <input type="text" class="search" placeholder="titulo, autor, gênero..">
+            <i class="fas fa-search"></i>
+        </form>
+    </nav>
+
+    <div class="main">
+        <div class="container">
+            <div class="card__books owl-carousel owl-theme">
+                <div class="books">
+                    <!-- <img class="books__image" src="../images/miranha.jpg" alt=""> -->
+                </div>
+                <div class="books">
+                    <img class="books__image" src="../images/resident.jpg" alt="">
+                </div>
+                <div class="books">
+                    <img class="books__image" src="../images/venom.jpg" alt="">
+                </div>
+                <div class="books">
+                    <img class="books__image" src="../images/miranha.jpg" alt="">
+                </div>
+                <div class="books">
+                    <img class="books__image" src="../images/resident.jpg" alt="">
+                </div>
+                <div class="books">
+                    <img class="books__image" src="../images/venom.jpg" alt="">
+                </div>
+                <div class="books">
+                    <img class="books__image" src="../images/miranha.jpg" alt="">
+                </div>
+                <div class="books">
+                    <img class="books__image" src="../images/resident.jpg" alt="">
+                </div>
+                <div class="books">
+                    <img class="books__image" src="../images/venom.jpg" alt="">
+                </div>
+            </div>
+            <div class="card__books owl-carousel owl-theme">
+                <div class="books">
+                    <img class="books__image" src="../images/miranha.jpg" alt="">
+                </div>
+                <div class="books">
+                    <img class="books__image" src="../images/resident.jpg" alt="">
+                </div>
+                <div class="books">
+                    <img class="books__image" src="../images/venom.jpg" alt="">
+                </div>
+                <div class="books">
+                    <img class="books__image" src="../images/miranha.jpg" alt="">
+                </div>
+                <div class="books">
+                    <img class="books__image" src="../images/resident.jpg" alt="">
+                </div>
+                <div class="books">
+                    <img class="books__image" src="../images/venom.jpg" alt="">
+                </div>
+                <div class="books">
+                    <img class="books__image" src="../images/miranha.jpg" alt="">
+                </div>
+                <div class="books">
+                    <img class="books__image" src="../images/resident.jpg" alt="">
+                </div>
+                <div class="books">
+                    <img class="books__image" src="../images/venom.jpg" alt="">
+                </div>
+            </div>
+            <div class="card__books">
+
+            </div>
+        </div>
+        <script src="jquery.min.js"></script>
+        <script src="owlcarousel/owl.carousel.min.js"></script>
+        <script>
+            $('.owl-carousel').owlCarousel({
+                stagePadding: 50,
+                loop: true,
+                margin: 10,
+                nav: true,
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+                    600: {
+                        items: 3
+                    },
+                    1000: {
+                        items: 5
+                    }
+                }
+            })
+        </script>
+</body>
+
+</html>

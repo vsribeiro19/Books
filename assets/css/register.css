@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Nunito+Sans&family=Poppins&family=Roboto:wght@400;500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    background-color: rgb(238, 238, 238);
+    font-family: 'Lato', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+}
+
+.logo {
+    /* border: 1px solid red; */
+    width: 100%;
+    margin: 0 auto;
+}
+
+.logo h1 {
+    color: #E50914;
+    margin: 10px 20px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form__register{
+    border: 1px solid #242424;
+    border-radius: 10px;
+    width: 27%;
+    height: 520px;
+}
+
+.form__register__input input{
+    padding: 7px;
+    width: 50%;
+    outline: none;
+    border: 1px solid #d5d5d5;
+    border-radius: 5px;
+}
