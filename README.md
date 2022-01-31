@@ -2,7 +2,7 @@
 
 #### O Books é um projeto em andamento que está sendo construído aos poucos e 100% por mim. 
 #### Como sou um adorador de livros e de leitura, resolvi criar um sistema de livros onde será possível ter informações sobre o livro, como: Resumo, quantidade de páginas, autor, editora, ver a capa do livro, etc. Tudo isso será consumido via API do Google Books.
-#### Conforme vou estudando e aprendendo novos conceitos, eu irei modificando e melhorando este projeto. 
+#### Conforme vou estudando e aprendendo novos conceitos, irei modificando e melhorando este projeto. 
 
 
 ## Funcionalidades
