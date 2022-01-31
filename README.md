@@ -12,7 +12,9 @@
 * Formulário de Cadastro
 * Login
 * Feito o login, o usuário será redirecionado para a Home, onde já terá a exibição dos livros.
-* O usuário poderá ler os resumos de cada livro
+* O usuário poderá ler os resumos de cada livro.
+* O usuário poderá pesquisar o livro através da barra de pesquisa.
+* Poderá fazer a busca por gênero do livro através do Menu Categoria.
 * O usuário poderá escolher se quer ler o livro, se já está lendo ou já leu. (botão Lendo, Quero ler, Lido).
 * O usuário poderá realizar pequenos resumos dos livros que estiver lendo.
 
