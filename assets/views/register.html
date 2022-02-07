@@ -6,21 +6,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/register.css">
-    <title>Books - Cadastre-se</title>
+    <title>Cadastre-se - Books</title>
 </head>
 
 <body>
-    <header class="header">
-        <div class="logo">
-            <h1>Books</h1>
-        </div>
-    </header>
     <div class="container">
-        <form action="#" method="POST" class="form__register">
-            <div class="form__register__input">
-                <input type="text" placeholder="Nome">
-                <input type="text" placeholder="E-mail">
+        <form action="../../../Books/register.php" method="POST" class="form__register">
+            <div class="logo">
+                <h1>Books</h1>
             </div>
+            <h2>Cadastre-se</h2>
+            <div class="form__register__input">
+                <input name="login" type="text" placeholder="Nome" required maxlength="30">
+                <input name="email"  type="text" placeholder="E-mail" required maxlength="50">
+                <input name="senha" type="password" placeholder="Senha" required>
+                <input name="conf_senha" type="password" placeholder="Confirmar senha" required>
+            </div>
+            <button class="button" name="cadastrar">Criar conta</button>
         </form>
     </div>
 </body>
