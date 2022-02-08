@@ -20,7 +20,10 @@ class UserDAO implements UserDAOInterface
         $user->nome = $data["nome"];
         $user->email = $data["email"];
         $user->senha = $data["senha"];
+
+        return $user;
     }
+    
     public function create(User $user, $authUser = false)
     {
     }

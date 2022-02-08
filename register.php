@@ -5,6 +5,6 @@ var_dump($dados);
 
 if(!empty($dados['cadastrar'])){
     var_dump($dados);
-    "INSERT INTO register (nome, email, senha) VALUES (:nome, :email, :senha)";
+    "INSERT INTO register (null, nome, email, senha) VALUES (:nome, :email, :senha)";
 
 }

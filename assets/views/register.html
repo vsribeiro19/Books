@@ -11,16 +11,17 @@
 
 <body>
     <div class="container">
-        <form action="../../../Books/register.php" method="POST" class="form__register">
+        <form action="../../home.php" method="POST" class="form__register">
+            <input type="hidden" name="type" value="register">
             <div class="logo">
                 <h1>Books</h1>
             </div>
             <h2>Cadastre-se</h2>
             <div class="form__register__input">
-                <input name="login" type="text" placeholder="Nome" required maxlength="30">
-                <input name="email"  type="text" placeholder="E-mail" required maxlength="50">
-                <input name="senha" type="password" placeholder="Senha" required>
-                <input name="conf_senha" type="password" placeholder="Confirmar senha" required>
+                <input name="login" type="text" placeholder="Nome" maxlength="30">
+                <input name="email" type="text" placeholder="E-mail" maxlength="50">
+                <input name="senha" type="password" placeholder="Senha">
+                <input name="conf_senha" type="password" placeholder="Confirmar senha">
             </div>
             <button class="button" name="cadastrar">Criar conta</button>
         </form>
