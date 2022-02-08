@@ -18,7 +18,6 @@ if ($type === "register") {
 
     }else{
         $message->setMessage("Por favor, preencha todos os campos!", "error", "back");
-        $message->getMessage("Por favor, preencha todos os campos!", )
     }
 } 
 else if ($type === "login") {
