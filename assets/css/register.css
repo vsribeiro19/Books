@@ -72,6 +72,13 @@ form h2 {
     transform: translate(-50%, -50%);
 }
 
+.register__account {
+    position: relative;
+    top: 100px;
+    left: 77%;
+    transform: translate(-50%, -50%);
+}
+
 @media(max-width:400px) {
     .logo h1 {
         font-size: 18pt;
